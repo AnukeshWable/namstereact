@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Parcel cache files
+.cache/
+
+.dist/
+.parcel-cache/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# VS Code files
+.vscode/
+
+# Logs
+logs/
+*.log  

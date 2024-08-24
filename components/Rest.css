@@ -1,0 +1,40 @@
+/* Rest.css */
+
+/* Container Styling */
+div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background: rgb(50,1935,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+div:hover {
+    transform: scale(1.05);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Description Styling */
+h2 {
+    font-size: 18px;
+    color: #666;
+}
