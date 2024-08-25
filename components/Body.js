@@ -8,7 +8,7 @@ const Body = () => {
         {foodItems.map((item)=>(
             <Rest {...item} />
         ))}
-        <Video></Video>
+        <Video name1="Anukesh"/>
       </>
     );
   };
